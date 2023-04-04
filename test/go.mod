@@ -7,15 +7,17 @@ replace sigs.k8s.io/cluster-api => ../
 require (
 	github.com/Microsoft/go-winio v0.5.0 // indirect
 	github.com/blang/semver v3.5.1+incompatible
-	github.com/containerd/containerd v1.5.2 // indirect
-	github.com/docker/docker v20.10.7+incompatible
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/go-logr/logr v0.4.0
+	github.com/google/uuid v1.2.0 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/onsi/ginkgo v1.16.4
 	github.com/onsi/gomega v1.15.0
+	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/pflag v1.0.5
+	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
 	k8s.io/api v0.21.4
 	k8s.io/apiextensions-apiserver v0.21.4
 	k8s.io/apimachinery v0.21.4
